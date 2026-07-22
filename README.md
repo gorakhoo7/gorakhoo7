@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=3" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
+<img src="./banner.svg?v=5" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
 
 </div>
 
@@ -10,7 +10,7 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<img src="./lanyard.svg?v=4" alt="Gorakh ID badge" width="320"/>
+<img src="./lanyard.svg?v=5" alt="Gorakh ID badge" width="320"/>
 
 </td>
 <td width="62%" valign="middle">
