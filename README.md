@@ -51,8 +51,8 @@ tooling that keeps customers moving.
 
 ### 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=gorakhoo7&show_icons=true&count_private=true&hide_border=true&bg_color=0b1830&title_color=38bdf8&icon_color=34d399&text_color=8fb3d9" alt="GitHub stats" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gorakhoo7&layout=compact&hide_border=true&bg_color=0b1830&title_color=38bdf8&text_color=8fb3d9" alt="Top languages" height="180"/>
+<img src="./gorakh-stats.svg" alt="GitHub stats" height="200"/>
+<img src="./gorakh-langs.svg" alt="Daily drivers" height="200"/>
 
 <br/><br/>
 
@@ -64,10 +64,14 @@ tooling that keeps customers moving.
 
 <br/><br/>
 
+<img src="./gorakh-trophies.svg" alt="Trophies" width="95%"/>
+
+<br/><br/>
+
 ### 🐍 The snake eats my contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gorakhoo7/gorakhoo7/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gorakhoo7/gorakhoo7/output/github-snake-neon.svg"/>
   <img src="https://raw.githubusercontent.com/gorakhoo7/gorakhoo7/output/github-snake.svg" alt="Contribution snake"/>
 </picture>
 

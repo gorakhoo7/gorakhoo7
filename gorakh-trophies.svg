@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="150" viewBox="0 0 1100 150" role="img" aria-label="Trophies">
+<defs>
+<style><![CDATA[
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+@keyframes popIn{0%{opacity:0;transform:translateY(16px) scale(.7)}70%{opacity:1;transform:translateY(-4px) scale(1.05)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes shine{0%,100%{opacity:.25}50%{opacity:.9}}
+.pop{opacity:0;animation:popIn .7s cubic-bezier(.2,.8,.3,1.2) forwards}
+]]></style>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fde68a"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+</defs>
+<rect width="1100" height="150" rx="14" fill="#0b1830" stroke="#1f3a5c"/>
+<g text-anchor="middle">
+  <g class="pop" style="animation-delay:.1s" transform="translate(110,0)">
+    <text y="66" font-size="38">🏆</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">1.9k contributions</text><text y="116" font-size="11.5" fill="#8fb3d9">in the last year</text>
+    <circle cx="26" cy="36" r="3" fill="#fde68a" style="animation:shine 2.4s infinite"/>
+  </g>
+  <g class="pop" style="animation-delay:.3s" transform="translate(330,0)">
+    <text y="66" font-size="38">🚀</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">351 pull requests</text><text y="116" font-size="11.5" fill="#8fb3d9">opened &amp; shipped</text>
+  </g>
+  <g class="pop" style="animation-delay:.5s" transform="translate(550,0)">
+    <text y="66" font-size="38">🔍</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">255 code reviews</text><text y="116" font-size="11.5" fill="#8fb3d9">keeping main green</text>
+  </g>
+  <g class="pop" style="animation-delay:.7s" transform="translate(770,0)">
+    <text y="66" font-size="38">🧯</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">Prod firefighter</text><text y="116" font-size="11.5" fill="#8fb3d9">outages root-caused, not patched</text>
+  </g>
+  <g class="pop" style="animation-delay:.9s" transform="translate(990,0)">
+    <text y="66" font-size="38">💳</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">Payment rails</text><text y="116" font-size="11.5" fill="#8fb3d9">onboarding → KYC → live</text>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200" role="img" aria-label="Daily drivers">
+<defs>
+<style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,monospace}
+@keyframes grow{from{width:0}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.fade{opacity:0;animation:fadeIn .7s ease forwards}
+.bar{animation:grow 1.2s cubic-bezier(.4,0,.2,1) both}
+]]></style>
+</defs>
+<rect width="360" height="200" rx="14" fill="#0b1830" stroke="#1f3a5c"/>
+<text x="24" y="36" font-size="16" font-weight="700" fill="#38bdf8" class="fade" style="font-family:'Segoe UI',Arial,sans-serif">Daily drivers</text>
+<g font-size="12.5">
+  <text x="24" y="66" fill="#c7ddf4" class="fade" style="animation-delay:.1s">TypeScript</text><rect x="130" y="56" width="182" height="11" rx="5.5" fill="#132542"/><rect x="130" y="56" width="164" height="11" rx="5.5" fill="#3178c6" class="bar" style="animation-delay:.2s"/>
+  <text x="24" y="92" fill="#c7ddf4" class="fade" style="animation-delay:.25s">PHP / Laravel</text><rect x="130" y="82" width="182" height="11" rx="5.5" fill="#132542"/><rect x="130" y="82" width="86" height="11" rx="5.5" fill="#8993be" class="bar" style="animation-delay:.35s"/>
+  <text x="24" y="118" fill="#c7ddf4" class="fade" style="animation-delay:.4s">JavaScript</text><rect x="130" y="108" width="182" height="11" rx="5.5" fill="#132542"/><rect x="130" y="108" width="66" height="11" rx="5.5" fill="#f1e05a" class="bar" style="animation-delay:.5s"/>
+  <text x="24" y="144" fill="#c7ddf4" class="fade" style="animation-delay:.55s">Infra / YAML</text><rect x="130" y="134" width="182" height="11" rx="5.5" fill="#132542"/><rect x="130" y="134" width="44" height="11" rx="5.5" fill="#34d399" class="bar" style="animation-delay:.65s"/>
+  <text x="24" y="170" fill="#c7ddf4" class="fade" style="animation-delay:.7s">SQL</text><rect x="130" y="160" width="182" height="11" rx="5.5" fill="#132542"/><rect x="130" y="160" width="30" height="11" rx="5.5" fill="#e38c00" class="bar" style="animation-delay:.8s"/>
+</g>
+</svg>
