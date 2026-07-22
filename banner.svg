@@ -46,14 +46,14 @@ text{font-family:'SFMono-Regular',Consolas,Menlo,monospace}
 <text x="64" y="96" class="sans fade" font-size="26" fill="#8fb3d9" style="animation-delay:.2s">Hi, I&#8217;m &#128075;</text>
 <text x="60" y="178" class="sans fade" font-size="82" font-weight="800" fill="url(#grad)" filter="url(#glow)" style="animation-delay:.4s">Gorakh</text>
 <rect x="64" y="198" width="0" height="6" rx="3" fill="url(#grad)"><animate attributeName="width" from="0" to="340" dur="1s" begin=".8s" fill="freeze"/></rect>
-<text x="64" y="240" font-size="21" fill="#c7ddf4" class="fade" style="animation-delay:1s">&#9889; Payments &amp; Platform Engineer /&#62;</text>
+<text x="64" y="240" font-size="21" fill="#c7ddf4" class="fade" style="animation-delay:1s">&#9889; Senior Engineering Manager &#183; System Architect /&#62;</text>
 
 <!-- quote box -->
 <g class="fade" style="animation-delay:1.3s">
   <rect x="64" y="262" width="420" height="58" rx="10" fill="#0f2a46" stroke="#38bdf8" stroke-opacity=".4"/>
   <rect x="64" y="262" width="4" height="58" rx="2" fill="#38bdf8"/>
-  <text x="86" y="288" font-size="15" fill="#c7ddf4">I don&#8217;t just merge code,</text>
-  <text x="86" y="310" font-size="15" fill="#7dd3fc">I ship it to production.</text>
+  <text x="86" y="288" font-size="15" fill="#c7ddf4">I design the system, lead the team,</text>
+  <text x="86" y="310" font-size="15" fill="#7dd3fc">and still ship the code.</text>
 </g>
 
 <!-- tech I know -->
@@ -71,9 +71,9 @@ text{font-family:'SFMono-Regular',Consolas,Menlo,monospace}
 
 <!-- about -->
 <text x="64" y="482" font-size="16" fill="#34d399" class="fade" style="animation-delay:3s">&#128161; About Me</text>
-<text x="64" y="508" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.15s">&#62;_ I build payment rails &amp; the automation around them.</text>
-<text x="64" y="532" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.3s">&#128268; Onboarding funnels, KYC pipelines, subscription billing.</text>
-<text x="64" y="556" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.45s">&#128737;&#65039; Webhooks that survive the real world &#8212; retries &amp; idempotency.</text>
+<text x="64" y="508" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.15s">&#62;_ 12+ years: PHP dev &#8594; team lead &#8594; engineering manager &amp; architect.</text>
+<text x="64" y="532" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.3s">&#127959;&#65039; Payment rails, KYC automation, microservices, cloud-native AWS.</text>
+<text x="64" y="556" font-size="14" fill="#c7ddf4" class="fade" style="animation-delay:3.45s">&#129302; Lately: agentic AI platforms, RAG &amp; LLM evaluation frameworks.</text>
 
 <!-- stats row -->
 <g class="fade" style="animation-delay:3.6s" font-size="13" text-anchor="middle">

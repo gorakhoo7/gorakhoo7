@@ -50,7 +50,7 @@
 
     <!-- identity -->
     <text x="165" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#e6f1ff">Gorakh</text>
-    <text x="165" y="354" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#8fb3d9">Payments &#38; Platform Engineer</text>
+    <text x="165" y="354" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="11" fill="#8fb3d9">Sr. Engineering Manager &#183; Architect</text>
 
     <!-- status -->
     <g>

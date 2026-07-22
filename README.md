@@ -17,14 +17,16 @@
 
 ### ⚡ What I do
 
-I build **payment infrastructure and the automation around it** — self-serve
-onboarding funnels, KYC pipelines, subscription billing, and the internal
-tooling that keeps customers moving.
+**Senior Engineering Manager & Solutions Architect** — I design enterprise-scale
+systems, lead the teams that build them, and still ship code to production.
+Currently building **payment infrastructure** at Sequifi: onboarding funnels,
+KYC pipelines, subscription billing, and the ops tooling around them.
 
-- 🏗️ Serverless backends on **AWS** — Lambda, Step Functions, DynamoDB, SQS, EventBridge
+- 🏛️ Architecture governance — HLD/LLD reviews, monolith→microservices, event-driven design
+- 🏗️ Cloud-native on **AWS** — Lambda, Step Functions, DynamoDB, SQS, EventBridge
 - 💳 **Stripe** billing flows — checkout, subscriptions, dunning, reconciliation
-- 🔁 Webhook-driven integrations that survive the real world (retries, idempotency, circuit breakers)
-- 🖥️ Frontends in **React / Next.js**, ops portals, and CS dashboards
+- 🤖 AI/LLM systems — agentic platforms, RAG, evaluation frameworks
+- 👥 Mentoring senior engineers & aligning system design with business outcomes
 
 ### 🧰 Tools I reach for
 
@@ -38,6 +40,8 @@ tooling that keeps customers moving.
 ![Laravel](https://img.shields.io/badge/Laravel-0b1830?style=for-the-badge&logo=laravel&logoColor=ff2d20)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-0b1830?style=for-the-badge&logo=amazondynamodb&logoColor=4053d6)
 ![PostgreSQL](https://img.shields.io/badge/Postgres-0b1830?style=for-the-badge&logo=postgresql&logoColor=4169e1)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-0b1830?style=for-the-badge&logo=rabbitmq&logoColor=ff6600)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-0b1830?style=for-the-badge&logo=elasticsearch&logoColor=fed10a)
 
 > 💡 *"Merged is not deployed."*
 
@@ -48,6 +52,19 @@ tooling that keeps customers moving.
 <br/>
 
 <div align="center">
+
+### 🛤️ The journey — 12+ years
+
+| | Role | Where | When |
+|:---:|:---|:---|:---|
+| 🏗️ | **Senior Engineering Manager · System Architect** | Sequifi | 2022 → now |
+| 👨‍✈️ | Technical Team Lead | Apptology | 2020 → 2022 |
+| ⚙️ | Senior PHP Developer | Asterro Technologies | 2017 → 2020 |
+| 🌱 | PHP Developer | RailsBox Technologies | 2014 → 2016 |
+
+🎓 B.E. Computer Science — NIMS University
+
+<br/>
 
 ### 📊 GitHub Stats
 
@@ -79,7 +96,8 @@ tooling that keeps customers moving.
 
 ### 📫 Connect
 
+<a href="https://www.linkedin.com/in/gorakh-yadav-195532170"><img src="https://img.shields.io/badge/LinkedIn-0b1830?style=for-the-badge&logo=linkedin&logoColor=0a66c2" alt="LinkedIn"/></a>
 <a href="https://github.com/gorakhoo7"><img src="https://img.shields.io/badge/GitHub-0b1830?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="mailto:gorakh@sequifi.com"><img src="https://img.shields.io/badge/Email-0b1830?style=for-the-badge&logo=gmail&logoColor=38bdf8" alt="Email"/></a>
+<a href="mailto:gorakh.yadav158@gmail.com"><img src="https://img.shields.io/badge/Email-0b1830?style=for-the-badge&logo=gmail&logoColor=38bdf8" alt="Email"/></a>
 
 </div>
