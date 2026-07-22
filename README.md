@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=5" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
+<img src="./banner.svg?v=6" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
 
 </div>
 
