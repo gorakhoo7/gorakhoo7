@@ -21,7 +21,7 @@ jobs:
           github_user_name: gorakhoo7
           outputs: |
             dist/github-snake.svg?palette=github-light
-            dist/github-snake-neon.svg?color_snake=#34d399&color_dots=#0f2a46,#155e75,#0ea5e9,#38bdf8,#34d399
+            dist/github-snake-neon.svg?color_snake=#34d399&color_dots=#1e3a5f,#1d6fa5,#2596d1,#38bdf8,#7dd3fc
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4

@@ -1,30 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="150" viewBox="0 0 1100 150" role="img" aria-label="Trophies">
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="190" viewBox="0 0 1140 190" role="img" aria-label="Trophies">
 <defs>
 <style><![CDATA[
-text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
-@keyframes popIn{0%{opacity:0;transform:translateY(16px) scale(.7)}70%{opacity:1;transform:translateY(-4px) scale(1.05)}100%{opacity:1;transform:translateY(0) scale(1)}}
-@keyframes shine{0%,100%{opacity:.25}50%{opacity:.9}}
-.pop{opacity:0;animation:popIn .7s cubic-bezier(.2,.8,.3,1.2) forwards}
+text{font-family:'SFMono-Regular',Consolas,Menlo,monospace}
+@keyframes popIn{0%{opacity:0;transform:translateY(18px) scale(.75)}70%{opacity:1;transform:translateY(-4px) scale(1.04)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes grow{from{width:0}}
+@keyframes shimmer{0%,100%{opacity:.5}50%{opacity:1}}
+.pop{opacity:0;animation:popIn .7s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.bar{animation:grow 1.4s cubic-bezier(.4,0,.2,1) both}
 ]]></style>
-<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fde68a"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
 </defs>
-<rect width="1100" height="150" rx="14" fill="#0b1830" stroke="#1f3a5c"/>
-<g text-anchor="middle">
-  <g class="pop" style="animation-delay:.1s" transform="translate(110,0)">
-    <text y="66" font-size="38">🏆</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">1.9k contributions</text><text y="116" font-size="11.5" fill="#8fb3d9">in the last year</text>
-    <circle cx="26" cy="36" r="3" fill="#fde68a" style="animation:shine 2.4s infinite"/>
-  </g>
-  <g class="pop" style="animation-delay:.3s" transform="translate(330,0)">
-    <text y="66" font-size="38">🚀</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">351 pull requests</text><text y="116" font-size="11.5" fill="#8fb3d9">opened &amp; shipped</text>
-  </g>
-  <g class="pop" style="animation-delay:.5s" transform="translate(550,0)">
-    <text y="66" font-size="38">🔍</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">255 code reviews</text><text y="116" font-size="11.5" fill="#8fb3d9">keeping main green</text>
-  </g>
-  <g class="pop" style="animation-delay:.7s" transform="translate(770,0)">
-    <text y="66" font-size="38">🧯</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">Prod firefighter</text><text y="116" font-size="11.5" fill="#8fb3d9">outages root-caused, not patched</text>
-  </g>
-  <g class="pop" style="animation-delay:.9s" transform="translate(990,0)">
-    <text y="66" font-size="38">💳</text><text y="96" font-size="14" font-weight="700" fill="#e6f1ff">Payment rails</text><text y="116" font-size="11.5" fill="#8fb3d9">onboarding → KYC → live</text>
-  </g>
-</g>
+<rect width="1140" height="190" fill="none"/>
+<!-- each card: OUTER g holds position, INNER g animates -->
+<g transform="translate(10,10)"><g class="pop" style="animation-delay:.05s">
+  <rect width="170" height="170" rx="18" fill="#12102a" stroke="#f472b6" stroke-width="1.5"/>
+  <text x="140" y="40" text-anchor="middle" font-size="26" font-weight="800" fill="#f472b6" style="animation:shimmer 2.5s infinite">SSS</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">💳</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">Rail Builder</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">payments in prod</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#1f1b3a"/>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#f472b6" class="bar" style="animation-delay:.3s"/>
+</g></g>
+<g transform="translate(200,10)"><g class="pop" style="animation-delay:.2s">
+  <rect width="170" height="170" rx="18" fill="#121a0e" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="142" y="40" text-anchor="middle" font-size="28" font-weight="800" fill="#fbbf24" style="animation:shimmer 2.5s infinite">S</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">🏆</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">1.9k Contribs</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">in the last year</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#2a2410"/>
+  <rect x="26" y="136" width="112" height="7" rx="3.5" fill="#fbbf24" class="bar" style="animation-delay:.45s"/>
+</g></g>
+<g transform="translate(390,10)"><g class="pop" style="animation-delay:.35s">
+  <rect width="170" height="170" rx="18" fill="#0e1a2a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="142" y="40" text-anchor="middle" font-size="28" font-weight="800" fill="#38bdf8" style="animation:shimmer 2.5s infinite">S</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">🔍</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">Reviewer</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">255 code reviews</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#10263a"/>
+  <rect x="26" y="136" width="104" height="7" rx="3.5" fill="#38bdf8" class="bar" style="animation-delay:.6s"/>
+</g></g>
+<g transform="translate(580,10)"><g class="pop" style="animation-delay:.5s">
+  <rect width="170" height="170" rx="18" fill="#0e2419" stroke="#34d399" stroke-width="1.5"/>
+  <text x="142" y="40" text-anchor="middle" font-size="28" font-weight="800" fill="#34d399" style="animation:shimmer 2.5s infinite">A</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">🚀</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">PR Machine</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">351 pull requests</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#0f2e20"/>
+  <rect x="26" y="136" width="96" height="7" rx="3.5" fill="#34d399" class="bar" style="animation-delay:.75s"/>
+</g></g>
+<g transform="translate(770,10)"><g class="pop" style="animation-delay:.65s">
+  <rect width="170" height="170" rx="18" fill="#1c1230" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="142" y="40" text-anchor="middle" font-size="28" font-weight="800" fill="#a78bfa" style="animation:shimmer 2.5s infinite">A</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">🤖</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">AI Builder</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">agents · RAG · evals</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#241a3a"/>
+  <rect x="26" y="136" width="90" height="7" rx="3.5" fill="#a78bfa" class="bar" style="animation-delay:.9s"/>
+</g></g>
+<g transform="translate(960,10)"><g class="pop" style="animation-delay:.8s">
+  <rect width="170" height="170" rx="18" fill="#241408" stroke="#fb923c" stroke-width="1.5"/>
+  <text x="142" y="40" text-anchor="middle" font-size="28" font-weight="800" fill="#fb923c" style="animation:shimmer 2.5s infinite">S+</text>
+  <text x="48" y="46" text-anchor="middle" font-size="30">🧭</text>
+  <text x="85" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#e6f1ff">12+ Years</text>
+  <text x="85" y="114" text-anchor="middle" font-size="11" fill="#8fb3d9">dev → EM/architect</text>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#2e1c0e"/>
+  <rect x="26" y="136" width="118" height="7" rx="3.5" fill="#fb923c" class="bar" style="animation-delay:1.05s"/>
+</g></g>
 </svg>

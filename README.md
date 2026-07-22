@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
+<img src="./banner.svg?v=3" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
 
 </div>
 
@@ -10,7 +10,7 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<img src="./lanyard.svg" alt="Gorakh ID badge" width="320"/>
+<img src="./lanyard.svg?v=3" alt="Gorakh ID badge" width="320"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -53,14 +53,15 @@ KYC pipelines, subscription billing, and the ops tooling around them.
 
 <div align="center">
 
-### 🛤️ The journey — 12+ years
+### 🛤️ Now
 
-| | Role | Where | When |
-|:---:|:---|:---|:---|
-| 🏗️ | **Senior Engineering Manager · System Architect** | Sequifi | 2022 → now |
-| 👨‍✈️ | Technical Team Lead | Apptology | 2020 → 2022 |
-| ⚙️ | Senior PHP Developer | Asterro Technologies | 2017 → 2020 |
-| 🌱 | PHP Developer | RailsBox Technologies | 2014 → 2016 |
+**Senior Engineering Manager · System Architect @ Sequifi** — 12+ years of building
+
+![RAG](https://img.shields.io/badge/RAG-0b1830?style=for-the-badge&logo=databricks&logoColor=a78bfa)
+![LLM](https://img.shields.io/badge/LLM_Systems-0b1830?style=for-the-badge&logo=openai&logoColor=34d399)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-0b1830?style=for-the-badge&logo=probot&logoColor=f472b6)
+![Python](https://img.shields.io/badge/Python-0b1830?style=for-the-badge&logo=python&logoColor=3776ab)
+![AWS Infrastructure](https://img.shields.io/badge/AWS_Infrastructure-0b1830?style=for-the-badge&logo=amazonwebservices&logoColor=ff9900)
 
 🎓 B.E. Computer Science — NIMS University
 
@@ -68,8 +69,8 @@ KYC pipelines, subscription billing, and the ops tooling around them.
 
 ### 📊 GitHub Stats
 
-<img src="./gorakh-stats.svg" alt="GitHub stats" height="200"/>
-<img src="./gorakh-langs.svg" alt="Daily drivers" height="200"/>
+<img src="./gorakh-stats.svg?v=3" alt="GitHub stats" height="200"/>
+<img src="./gorakh-langs.svg?v=3" alt="Daily drivers" height="200"/>
 
 <br/><br/>
 
@@ -81,7 +82,7 @@ KYC pipelines, subscription billing, and the ops tooling around them.
 
 <br/><br/>
 
-<img src="./gorakh-trophies.svg" alt="Trophies" width="95%"/>
+<img src="./gorakh-trophies.svg?v=3" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
