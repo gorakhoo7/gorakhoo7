@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=7" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
+<img src="./banner.svg?v=8" alt="Gorakh — Payments & Platform Engineer" width="100%"/>
 
 </div>
 
@@ -53,13 +53,36 @@ KYC pipelines, subscription billing, and the ops tooling around them.
 
 <div align="center">
 
+### 🛤️ Now
+
+**Senior Engineering Manager · System Architect @ Sequifi** — 12+ years of building
+
+![RAG](https://img.shields.io/badge/RAG-0b1830?style=for-the-badge&logo=databricks&logoColor=a78bfa)
+![LLM](https://img.shields.io/badge/LLM_Systems-0b1830?style=for-the-badge&logo=openai&logoColor=34d399)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-0b1830?style=for-the-badge&logo=probot&logoColor=f472b6)
+![Python](https://img.shields.io/badge/Python-0b1830?style=for-the-badge&logo=python&logoColor=3776ab)
+![AWS Infrastructure](https://img.shields.io/badge/AWS_Infrastructure-0b1830?style=for-the-badge&logo=amazonwebservices&logoColor=ff9900)
+
+🎓 B.E. Computer Science — NIMS University
+
+<br/>
+
 ### 📊 GitHub Stats
+
+<img src="./gorakh-stats.svg?v=3" alt="GitHub stats" height="200"/>
+<img src="./gorakh-langs.svg?v=3" alt="Daily drivers" height="200"/>
+
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=gorakhoo7&hide_border=true&background=0b1830&ring=38bdf8&fire=34d399&currStreakLabel=38bdf8&sideLabels=8fb3d9&sideNums=e6f1ff&currStreakNum=e6f1ff&dates=33507a" alt="GitHub streak"/>
 
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=gorakhoo7&bg_color=0b1830&color=8fb3d9&line=38bdf8&point=34d399&area=true&area_color=0ea5e9&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution graph" width="95%"/>
+
+<br/><br/>
+
+<img src="./gorakh-trophies.svg?v=3" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
