@@ -10,7 +10,7 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<img src="./lanyard.svg?v=3" alt="Gorakh ID badge" width="320"/>
+<img src="./lanyard.svg?v=4" alt="Gorakh ID badge" width="320"/>
 
 </td>
 <td width="62%" valign="middle">
