@@ -1,0 +1,69 @@
+<svg width="330" height="470" viewBox="0 0 330 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gorakh ID badge">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101c33"/>
+      <stop offset="100%" stop-color="#0a1424"/>
+    </linearGradient>
+    <linearGradient id="strap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="soft"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+
+  <!-- everything swings from the pin at (165,18) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-6 165 18; 6 165 18; -6 165 18" dur="5.2s"
+      calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+
+    <!-- pin -->
+    <circle cx="165" cy="18" r="7" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+
+    <!-- lanyard straps -->
+    <path d="M165 20 L120 120" stroke="url(#strap)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M165 20 L210 120" stroke="url(#strap)" stroke-width="13" stroke-linecap="round"/>
+    <text x="132" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#04121f" transform="rotate(-66 138 78)">SEQUIFI</text>
+
+    <!-- clip -->
+    <rect x="150" y="112" width="30" height="20" rx="4" fill="#334155"/>
+    <rect x="158" y="126" width="14" height="12" rx="2" fill="#64748b"/>
+
+    <!-- card -->
+    <g filter="url(#soft)">
+      <rect x="55" y="136" width="220" height="308" rx="18" fill="url(#card)" stroke="#1f3a5c" stroke-width="1.5"/>
+    </g>
+    <rect x="55" y="136" width="220" height="54" rx="18" fill="#0c2138"/>
+    <rect x="55" y="172" width="220" height="18" fill="#0c2138"/>
+    <text x="165" y="170" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" fill="#7dd3fc" letter-spacing="4">SEQUIFI</text>
+
+    <!-- avatar ring -->
+    <circle cx="165" cy="248" r="45" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="8 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 165 248" to="360 165 248" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="165" cy="248" r="37" fill="#0f2a46"/>
+    <text x="165" y="264" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#e6f1ff">G</text>
+
+    <!-- identity -->
+    <text x="165" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#e6f1ff">Gorakh</text>
+    <text x="165" y="354" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#8fb3d9">Payments &#38; Platform Engineer</text>
+
+    <!-- status -->
+    <g>
+      <circle cx="118" cy="381" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="130" y="385" font-family="SFMono-Regular, Consolas, monospace" font-size="11" fill="#6ee7b7">shipping to production</text>
+    </g>
+
+    <!-- barcode -->
+    <g fill="#33507a">
+      <rect x="85" y="405" width="3" height="24"/><rect x="92" y="405" width="6" height="24"/><rect x="102" y="405" width="2" height="24"/><rect x="108" y="405" width="5" height="24"/><rect x="117" y="405" width="2" height="24"/><rect x="123" y="405" width="7" height="24"/><rect x="134" y="405" width="3" height="24"/><rect x="141" y="405" width="2" height="24"/><rect x="147" y="405" width="6" height="24"/><rect x="157" y="405" width="2" height="24"/><rect x="163" y="405" width="4" height="24"/><rect x="171" y="405" width="7" height="24"/><rect x="182" y="405" width="2" height="24"/><rect x="188" y="405" width="5" height="24"/><rect x="197" y="405" width="3" height="24"/><rect x="204" y="405" width="6" height="24"/><rect x="214" y="405" width="2" height="24"/><rect x="220" y="405" width="4" height="24"/><rect x="228" y="405" width="7" height="24"/><rect x="239" y="405" width="3" height="24"/>
+    </g>
+    <text x="165" y="440" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="9" fill="#33507a" letter-spacing="3">GORAKHOO7</text>
+  </g>
+</svg>
